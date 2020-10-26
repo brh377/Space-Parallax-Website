@@ -9,7 +9,7 @@
     color: white;
 }
 .container{
-    background: url("../photos/background.png") no-repeat;
+    background: url("../photos/rsz_background.png") no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -301,10 +301,11 @@ h2{
 }
 .large-photo{
     width: 100%;
+    
 }
 .large-photo img{
     width: 100%;
-    height: 400px;
+    max-height: 650px;
 }
 .small-photos{
     display: flex;
@@ -354,6 +355,9 @@ h2{
     .photos{
         margin: 0;
         width: 100%;
+    }
+    .large-photo img{
+        max-height: 370px;
     }
 
 }
