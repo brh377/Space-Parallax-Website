@@ -9,7 +9,7 @@
     color: white;
 }
 .container{
-    background: url("../photos/optimized-g7sq.png") no-repeat;
+    background: url("../photos/compressed.png") no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
