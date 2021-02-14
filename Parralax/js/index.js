@@ -4,7 +4,7 @@ $(document).ready(function() {
         iframe: {
             markup: '<div class="mfp-iframe-scaler">'+
                       '<div class="mfp-close"></div>'+
-                      '<iframe class="trailer" src="https://youtu.be/QV07esqgkXo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+
+                      '<iframe class="trailer" src="https://youtu.be/embed/QV07esqgkXo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+
                     '</div>', // HTML markup of popup, `mfp-close` will be replaced by the close button
           
             patterns: {
